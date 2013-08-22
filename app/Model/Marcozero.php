@@ -1,0 +1,10 @@
+<?php
+
+App::uses("AppModel", "Model");
+
+class MarcoZero extends AppModel {
+
+	public $validate = array('nome' => array('rule' => 'notEmpty'), 'sexo' => array('rule' => 'notEmpty'), 'idade' => array('rule' => 'notEmpty'), 'vcor' => array('rule' => 'notEmpty'), 'bomora' => array('rule' => 'notEmpty'), 'ecomora' => array('rule' => 'notEmpty'), 'cqvcmora' => array('rule' => 'notEmpty'), 'qpessoamora' => array('rule' => 'notEmpty'), 'vce' => array('rule' => 'notEmpty'), 'qualseusonho' => array('rule' => 'notEmpty'), 'ovcqueser' => array('rule' => 'notEmpty'), 'assistirtv' => array('rule' => 'notEmpty'), 'abicicleta' => array('rule' => 'notEmpty'), 'fatoa' => array('rule' => 'notEmpty'), 'figrejas' => array('rule' => 'notEmpty'), 'fparques' => array('rule' => 'notEmpty'), 'ninternet' => array('rule' => 'notEmpty'), 'iaocinema' => array('rule' => 'notEmpty'), 'iaoshop' => array('rule' => 'notEmpty'), 'jvideogame' => array('rule' => 'notEmpty'), 'ler' => array('rule' => 'notEmpty'), 'ouvir' => array('rule' => 'notEmpty'), 'passear' => array('rule' => 'notEmpty'), 'pesportes' => array('rule' => 'notEmpty'), 'estimp' => array('rule' => 'notEmpty'), 'pqrz' => array('rule' => 'notEmpty'), 'lerenttexto' => array('rule' => 'notEmpty'), 'escretexto' => array('rule' => 'notEmpty'), 'incoisas' => array('rule' => 'notEmpty'), 'lcomnum' => array('rule' => 'notEmpty'), 'fouesc' => array('rule' => 'notEmpty'), 'ouviroutro' => array('rule' => 'notEmpty'), 'te' => array('rule' => 'notEmpty'), 'pesquisar' => array('rule' => 'notEmpty'), 'vcsamarco' => array('rule' => 'notEmpty'), 'ovcachasa' => array('rule' => 'notEmpty'), 'ovcespera' => array('rule' => 'notEmpty'), 'qsuaprofissao' => array('rule' => 'notEmpty'), 'ecl' => array('rule' => 'notEmpty'), 'vtfilhos' => array('rule' => 'notEmpty'), 'qfilhos' => array('rule' => 'notEmpty'), 'qlprofissao' => array('rule' => 'notEmpty'), 'qpagadesp' => array('rule' => 'notEmpty'), 'qsuarenda' => array('rule' => 'notEmpty'), 'vestacursando' => array('rule' => 'notEmpty'), 'qnomeescola' => array('rule' => 'notEmpty'), );
+
+}
+?>
