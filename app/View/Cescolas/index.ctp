@@ -4,7 +4,7 @@
 <tr>
 <th>Id</th>
 <th>Nome da Escola</th>
-<th>Estadp</th>
+<th>Estado</th>
 <th>Cidade</th>
 <th>Bairro</th>
 <th>Endereço</th>
@@ -16,19 +16,19 @@
 <tr>
 <td><?php echo $Cescola['Cescola']['id']; ?></td>
 <td>
-<?php echo $this->Html->link($Cescola['Cescola']['Nescola'], array('action' => 'view', $Cescola['Cescola']['id'])); ?>
+<?php echo $Cescola['Cescola']['Nescola']; ?>
 </td>
 <td>
-<?php echo $this->Html->link($Cescola['Cescola']['Bairro'], array('action' => 'view', $Cescola['Cescola']['id'])); ?>
+<?php echo $Cescola['Cescola']['Estado']; ?>
 </td>
 <td>
-<?php echo $this->Html->link($Cescola['Cescola']['Estado'], array('action' => 'view', $Cescola['Cescola']['id'])); ?>
+<?php echo $Cescola['Cescola']['Cidade']; ?>
 </td>
 <td>
-<?php echo $this->Html->link($Cescola['Cescola']['Cidade'], array('action' => 'view', $Cescola['Cescola']['id'])); ?>
+<?php echo $Cescola['Cescola']['Bairro']; ?>
 </td>
 <td>
-<?php echo $this->Html->link($Cescola['Cescola']['Endereco'], array('action' => 'view', $Cescola['Cescola']['id'])); ?>
+<?php echo $Cescola['Cescola']['Endereco']; ?>
 </td>
 
 <td>

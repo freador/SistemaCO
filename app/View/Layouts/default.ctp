@@ -50,18 +50,18 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="header">
 
 <?php echo 	$this->Html->image('cabecalho_logo.jpg', array('alt' => $cakeDescription, 'border' => '0'));	?>
+<?php echo 	$this->Html->image('samarco.png', array('alt' => 'Samarco','id' => 'samarco','border' => '0'));	?>
 		</div>
 		<div id="menu">
-		<div id="mfcadastral"><a href="/sites/chamadaOnline/Fcadastrals">Ficha Cadastral</a></div>
-		<div id="mcescola"><a href="/sites/chamadaOnline/Cescolas">Cadastro de Escola</a></div>
-		<div id="mcoficina"><a href="/sites/chamadaOnline/Coficinas">Cadastro de Oficina</a></div>
-		<div id="mcaluno"><a href="/sites/chamadaOnline/Calunos">Ficha de Inscrição</a>	</div>
 		<div id="mmarcozero"><a href="/sites/chamadaOnline/MarcoZeros">Avaliação Marco Zero</a></div>
-		<div id="mrfacilitador"><a href="/sites/chamadaOnline/Roficineiros">Relatório do Facilitador</a></div>
-		<div id="mcfacilitadores"><a href="/sites/chamadaOnline/Cfacilitadors">Cadastro de Facilitadores</a></div>
+        <div id="mcescola"><a href="/sites/chamadaOnline/Cescolas">Cadastro de Escola</a></div>
+        <div id="mcoficina"><a href="/sites/chamadaOnline/Coficinas">Cadastro de Oficina</a></div>
+        <div id="mcfacilitadores"><a href="/sites/chamadaOnline/Cfacilitadors">Cadastro de Facilitadores</a></div>
+        <div id="mchamada"><a href="/sites/chamadaOnline/Chamadas">Chamada</a></div>
+        <div id="mcaluno"><a href="/sites/chamadaOnline/Calunos">Ficha de Inscrição</a>	</div>
+        <div id="mfcadastral"><a href="/sites/chamadaOnline/Fcadastrals">Ficha Cadastral</a></div>
 		<div id="mavaliacaoofc"><a href="/sites/chamadaOnline/Aoficinas">Relatório Criança/Jovem</a></div>
-		<div id="mchamada"><a href="/sites/chamadaOnline/Chamadas">Chamada</a></div>
-		
+		<div id="mrfacilitador"><a href="/sites/chamadaOnline/Roficineiros">Relatório do Facilitador</a></div>		
 		</div>
 		<div id="content">
 
@@ -73,7 +73,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump');
+	<?php //echo $this->element('sql_dump');
 			echo $_SESSION['role'];
  		if ($_SESSION['role'] == 'cf'){
  			//echo '<script></script>';

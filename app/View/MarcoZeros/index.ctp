@@ -1,7 +1,7 @@
 <h1>Lista Escolas</h1>
-<p><?php echo $this->Html->link('Adicionar um Aluno de 08 á 12', array('action' => 'add_08_12')); ?></p>
-<p><?php echo $this->Html->link('Adicionar um Aluno de 13 á 17', array('action' => 'add_13_17')); ?></p>
-<p><?php echo $this->Html->link('Adicionar um Aluno de 18 á 24', array('action' => 'add_18_24')); ?></p>
+<p><?php echo $this->Html->link('Adicionar um Aluno de 08 a 12', array('action' => 'add_08_12')); ?></p>
+<p><?php echo $this->Html->link('Adicionar um Aluno de 13 a 17', array('action' => 'add_13_17')); ?></p>
+<p><?php echo $this->Html->link('Adicionar um Aluno de 18 a 24', array('action' => 'add_18_24')); ?></p>
 <table>
 <tr>
 <th>Id</th>

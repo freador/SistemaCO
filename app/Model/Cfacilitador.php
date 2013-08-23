@@ -13,7 +13,6 @@ class Cfacilitador extends AppModel {
 		'tel' => array('rule' => 'notEmpty'),
 		'datanascimento' => array('rule' => 'notEmpty'),
 		'email' => array('rule' => 'notEmpty'),
-		'facebook' => array('rule' => 'notEmpty')		
 		);
 		
 }
